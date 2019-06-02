@@ -1,0 +1,42 @@
+Observaciones
+
+Retrofit
+volley
+
+
+liberias
+
+glide
+
+-url (tarer dependencias)
+
+picasso (traer dependecias )
+
+broadcast receivers
+
+C:\Users\EXTENSION\AndroidStudioProjects\BroadCast
+
+
+
+github
+https://github.com/jmayta1984
+
+
+Notificaciones
+
+Ocurre un evento 
+propio de la app
+
+tercero otra app
+
+sistmas operativos
+
+
+Broadcast (Emisor)
+
+
+mayumi toma (cmta2112@gmail.com)
+
+
+
+
