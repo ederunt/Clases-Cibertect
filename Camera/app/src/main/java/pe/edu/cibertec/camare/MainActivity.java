@@ -67,20 +67,24 @@ public class MainActivity extends AppCompatActivity {
                 requestCameraPermission();
                // requestContactPermission();
             } else {
-                startActivityForResult(cameraIntent, REQUEST_TAKE_PICTURE);
-            }
-
-            if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
-                requestCameraPermission();
-                // requestContactPermission();
-            } else {
 
                 File photfile = null;
                 photfile = createImage();
 
-
-                startActivityForResult(cameraIntent, REQUEST_TAKE_CONTACT);
+                startActivityForResult(cameraIntent, REQUEST_TAKE_PICTURE);
             }
+
+//            if (ContextCompat.checkSelfPermission(MainActivity.this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
+//                requestCameraPermission();
+//                // requestContactPermission();
+//            } else {
+//
+//                File photfile = null;
+//                photfile = createImage();
+//
+//
+//                startActivityForResult(cameraIntent, REQUEST_TAKE_CONTACT);
+//            }
 
         }
 
@@ -141,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void requestCameraPermission() {
 
-        ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CAMERA,Manifest.permission.READ_CONTACTS}, REQUEST_CAMERA);
+        ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permission.CAMERA/*,Manifest.permission.READ_CONTACTS*/}, REQUEST_CAMERA);
     }
 
 //    private void requestContactPermission() {
