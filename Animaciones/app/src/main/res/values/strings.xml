@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animate</string>
+    <string name="ClockWide">Clock Wide</string>
+    <string name="Zoom">Zoom</string>
+    <string name="Fade">Fade</string>
+    <string name="Move">Move</string>
+</resources>
