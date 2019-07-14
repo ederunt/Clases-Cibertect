@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PeliculasBActivity">
+
+
+    <EditText
+        android:id="@+id/txtFiltro"
+        android:layout_width="match_parent"
+        android:layout_height="52dp" />
+
+    <Button
+        android:id="@+id/btBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFiltro"
+        android:layout_marginTop="16dp"
+        android:text="Buscar" />
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="4dp" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="568dp"
+        android:layout_below="@+id/btBuscar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/texttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtAnio"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/textresumen"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvPeliculas"
+            android:layout_width="match_parent"
+            android:layout_height="293dp" />
+
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/texttitle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="TextView"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/txtAnio"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="81dp"-->
+        <!--android:text="TextView" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textresumen"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="81dp"-->
+        <!--android:text="TextView" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btAgregar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Agregar" />-->
+
+
+
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/recyclerView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="606dp"-->
+        <!--android:layout_alignBottom="@+id/btBuscar"-->
+        <!--android:layout_marginBottom="-613dp" />-->
+
+
+
+</RelativeLayout>
